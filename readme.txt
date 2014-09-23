@@ -82,10 +82,16 @@ Yes, deactivating the Pure Chat plugin will stop the widget from showing up, but
 
 == Changelog ==
 
+= 1.1 =
+* Fixed bugs in 1.0
+
 = 1.0 =
 * Plugin launch.
 
 == Upgrade Notice ==
+
+= 1.1 =
+* Fixed bugs in 1.0
 
 = 1.0 =
 * Plugin launch.
