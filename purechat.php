@@ -18,7 +18,7 @@ add_action('admin_menu', 'pure_chat_menu');
 add_action('wp_ajax_pure_chat_update', 'pure_chat_update');
 
 function pure_chat_menu() {
-	add_menu_page('Pure Chat', 'Pure Chat', 'manage_options', 'purechat-menu', 'pure_chat_generateAcctPage', plugins_url().'/purechat/favicon.ico');
+	add_menu_page('Pure Chat', 'Pure Chat', 'manage_options', 'purechat-menu', 'pure_chat_generateAcctPage', plugins_url().'/pure-chat/favicon.ico');
 	add_option('purechat_widget_code', '', '', 'yes');
 	add_option('purechat_widget_name', '', '', 'yes');
 }
@@ -32,7 +32,7 @@ function pure_chat_generateAcctPage() {
 	global $purechatHome;
 	?>
 	<head>
-			<link rel="stylesheet" href="<?php echo plugins_url().'/purechat/purechatStyles.css'?>" type="text/css">
+			<link rel="stylesheet" href="<?php echo plugins_url().'/pure-chat/purechatStyles.css'?>" type="text/css">
 	</head>
 	<?php
 	if (isset($_POST['purechatwid']) && isset($_POST['purechatwname'])) {
@@ -41,7 +41,7 @@ function pure_chat_generateAcctPage() {
 	?>
 	<p>		
 	<div class="purechatbuttonbox">
-		<img src="<?php echo plugins_url().'/purechat/logo.png'?>"alt="Pure Chat logo"></img>
+		<img src="<?php echo plugins_url().'/pure-chat/logo.png'?>"alt="Pure Chat logo"></img>
 		<div class = "purechatcontentdiv">
 			<?php
 			if (get_option('purechat_widget_code') == '' ) {
@@ -109,7 +109,7 @@ if (!function_exists('load_pure_chat_scripts')) {
 		global $pagenow;
         if (!is_admin() && 'wp-login.php' != $pagenow) {
 			wp_deregister_script( 'w_script' );
-			wp_register_script('w_script', plugins_url()."/purechat/purechatwidgetcode.js", false, false, true);
+			wp_register_script('w_script', plugins_url()."/pure-chat/purechatwidgetcode.js", false, false, true);
 			$pc_wid = get_option('purechat_widget_code');
 			wp_localize_script('w_script', 'purechat_widget_object', array('replacement_code' => $pc_wid));
 			wp_enqueue_script('w_script');
