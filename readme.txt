@@ -74,11 +74,11 @@ Yes, deactivating the Pure Chat plugin will stop the widget from showing up, but
 
 == Screenshots ==
 
-1. Startup
+1. Chat widget
 
-2. Chat widget selection
+2. Operator dashboard
 
-3. Visitors' view of chat widget
+3. Chat with customers on the go with our native iOS (iPhone/iPad) and Android apps.
 
 == Changelog ==
 
