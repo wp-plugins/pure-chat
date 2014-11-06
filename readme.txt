@@ -54,7 +54,7 @@ You can change all your widget settings from your [Pure Chat dashboard](https://
 
 = What pricing plans do you offer? = 
 
-Check the [Pure Chat pricing page](https://purechat.com/pricing/ "Pure Chat pricing page") for the latest info! We offer both free and paid plans.
+Check the [Pure Chat pricing page](https://www.purechat.com/pricing "Pure Chat pricing page") for the latest info! We offer both free and paid plans.
 
 = Does Pure Chat support other languages? =
 
