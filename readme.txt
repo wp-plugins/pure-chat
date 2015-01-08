@@ -3,7 +3,7 @@ Contributors: pure-chat
 Donate link: https://www.purechat.com
 Tags: chat, livechat, live, live chat, purechat, pure chat, online chat, chat online, wordpress chat, customer support, live help, chat widget, customer help, chat widget
 Requires at least: 3.0.1
-Tested up to: 3.9.1
+Tested up to: 4.1
 Stable tag: trunk
 
 Pure Chat is a leading live chat software that allows businesses to engage their customers in real time, from anywhere. Sign up and try it for free!
@@ -83,7 +83,7 @@ Yes, deactivating the Pure Chat plugin will stop the widget from showing up, but
 == Changelog ==
 
 = 1.2 =
-* Fixed selected widget not updating due to recent WP Super Cache update. 
+* Fixed selected widget not updating right away due to recent "WP Super Cache" plugin update. 
 
 = 1.1 =
 * Fixed bugs in 1.0
@@ -92,6 +92,9 @@ Yes, deactivating the Pure Chat plugin will stop the widget from showing up, but
 * Plugin launch.
 
 == Upgrade Notice ==
+
+= 1.2 =
+* Fixed selected widget not updating right away due to recent "WP Super Cache" plugin update. 
 
 = 1.1 =
 * Fixed bugs in 1.0
