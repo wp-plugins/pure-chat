@@ -3,14 +3,14 @@ Contributors: pure-chat
 Donate link: https://www.purechat.com
 Tags: chat, livechat, live, live chat, purechat, pure chat, online chat, chat online, wordpress chat, customer support, live help, chat widget, customer help, chat widget
 Requires at least: 3.0.1
-Tested up to: 4.1
+Tested up to: 4.1.1
 Stable tag: trunk
 
 Pure Chat is a leading live chat software that allows businesses to engage their customers in real time, from anywhere. Sign up and try it for free!
 
 == Description ==
 
-Pure Chat is a web app that makes it easy for website owners to chat with their visitors from anywhere! When users create an account and activate our simple, lightweight 
+Pure Chat is a web app that makes it easy for website owners to chat with their visitors from anywhere! When users create an account and activate our simple, lightweight
 Pure Chat plugin for WordPress, they'll be able to design fully-customized chat widgets that automatically appear on their site. Other awesome features include:
 
 * Fully customizable chat widget (including language customization)
@@ -52,7 +52,7 @@ No, just this plugin.
 
 You can change all your widget settings from your [Pure Chat dashboard](https://app.purechat.com/user/dashboard/ "Pure Chat dashboard").
 
-= What pricing plans do you offer? = 
+= What pricing plans do you offer? =
 
 Check the [Pure Chat pricing page](https://www.purechat.com/pricing "Pure Chat pricing page") for the latest info! We offer both free and paid plans.
 
@@ -82,8 +82,12 @@ Yes, deactivating the Pure Chat plugin will stop the widget from showing up, but
 
 == Changelog ==
 
+= 1.3 =
+* Fixed some more issues with WP Super Cache plugin.
+* Added proper cleanup on plugin uninstall.
+
 = 1.2 =
-* Fixed selected widget not updating right away due to recent "WP Super Cache" plugin update. 
+* Fixed selected widget not updating right away due to recent "WP Super Cache" plugin update.
 
 = 1.1 =
 * Fixed bugs in 1.0
@@ -94,7 +98,7 @@ Yes, deactivating the Pure Chat plugin will stop the widget from showing up, but
 == Upgrade Notice ==
 
 = 1.2 =
-* Fixed selected widget not updating right away due to recent "WP Super Cache" plugin update. 
+* Fixed selected widget not updating right away due to recent "WP Super Cache" plugin update.
 
 = 1.1 =
 * Fixed bugs in 1.0
