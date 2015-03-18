@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Pure_Chat
- * @version 1.3
+ * @version 1.31
  */
 /*
 Plugin Name: Pure Chat
 Plugin URI:
 Description: Website chat, simplified. Now from right inside WordPress!
 Author: Pure Chat, Inc.
-Version: 1.3
+Version: 1.31
 Author URI: purechat.com
 */
 
@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 include 'variables.php';
 
 class Pure_Chat_Plugin {
-	var $version = 3;
+	var $version = 4;
 
 	public static function activate()	{
 		Pure_Chat_Plugin::clear_cache();

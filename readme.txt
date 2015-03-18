@@ -82,6 +82,9 @@ Yes, deactivating the Pure Chat plugin will stop the widget from showing up, but
 
 == Changelog ==
 
+= 1.31 =
+* Fixed uninstall cleanup.
+
 = 1.3 =
 * Fixed some more issues with WP Super Cache plugin.
 * Added proper cleanup on plugin uninstall.
