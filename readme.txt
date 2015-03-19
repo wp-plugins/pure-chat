@@ -1,4 +1,4 @@
-=== Pure Chat - Free Live Chat Plugin for WordPress ===
+=== Pure Chat - Free Live Chat Plugin ===
 Contributors: pure-chat
 Donate link: https://www.purechat.com
 Tags: chat, livechat, live, live chat, purechat, pure chat, online chat, chat online, wordpress chat, customer support, live help, chat widget, customer help, chat widget
