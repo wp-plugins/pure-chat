@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Pure_Chat
- * @version 1.31
+ * @version 1.32
  */
 /*
 Plugin Name: Pure Chat
 Plugin URI:
 Description: Website chat, simplified. Now from right inside WordPress!
 Author: Pure Chat, Inc.
-Version: 1.31
+Version: 1.32
 Author URI: purechat.com
 */
 
@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 include 'variables.php';
 
 class Pure_Chat_Plugin {
-	var $version = 4;
+	var $version = 5;
 
 	public static function activate()	{
 		Pure_Chat_Plugin::clear_cache();
@@ -144,7 +144,7 @@ class Pure_Chat_Plugin {
 		global $pagenow;
 		if (!is_admin() && 'wp-login.php' != $pagenow) {
 			wp_deregister_script( 'w_script' );
-			wp_register_script('w_script', plugins_url()."/pure-chat/purechatwidgetcode.js", array(), 1, true);
+			wp_register_script('w_script', plugins_url('purechatwidgetcode.js', __FILE__), array(), 1, true);
 			wp_enqueue_script('w_script');
   	}
   }
