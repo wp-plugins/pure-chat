@@ -31,7 +31,7 @@ Pure Chat plugin for WordPress, they'll be able to design fully-customized chat 
 
 * Customizable canned responses for common questions
 
-* Free accounts for one user, and just $5 for each additional teammate
+* 100% free accounts available, along with optional paid plans
 
 == Installation ==
 
