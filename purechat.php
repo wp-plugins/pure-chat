@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Pure_Chat
- * @version 1.32
+ * @version 1.33
  */
 /*
 Plugin Name: Pure Chat
 Plugin URI:
 Description: Website chat, simplified. Now from right inside WordPress!
 Author: Pure Chat, Inc.
-Version: 1.32
+Version: 1.33
 Author URI: purechat.com
 */
 
