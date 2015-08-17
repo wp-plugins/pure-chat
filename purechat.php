@@ -42,10 +42,6 @@ class Pure_Chat_Plugin {
 	}
 
 	function update_plugin() {
-		if ( get_option('purechat_plugin_ver', 0) < $this->version && get_option('purechat_widget_code') != '') {
-			$this->pure_chat_update_script();
-		}
-
 		update_option('purechat_plugin_ver', $this->version);
 	}
 
